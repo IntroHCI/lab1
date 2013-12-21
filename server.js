@@ -25,6 +25,7 @@ app.use(express.compress());
 app.use(express.static(__dirname + '/static'));
 
 // Start the server
-app.listen(process.env.PORT || PORT, function() {
-	console.log("Node.js server running on port %s", PORT);
+var port = process.env.PORT || PORT; // 80 for web, 3000 for development
+app.listen(port, function() {
+	console.log("Node.js server running on port %s", port);
 });
