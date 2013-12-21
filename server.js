@@ -25,6 +25,6 @@ app.use(express.compress());
 app.use(express.static(__dirname + '/static'));
 
 // Start the server
-app.listen(PORT, function() {
-	console.log("Node.js server running. Access through a webserver at http://localhost:%s/", PORT);
+app.listen(process.env.PORT || PORT, function() {
+	console.log("Node.js server running on port %s", PORT);
 });
