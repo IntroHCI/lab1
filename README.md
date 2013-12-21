@@ -1,4 +1,4 @@
-cs147-lab1
-==========
+Lab 1
+=====
 
-Lab 1 for CS 147
+This lab introduces you to the serving of static content using node.js and Express. We'll also push and pull from GitHub, and publish to Heroku.
