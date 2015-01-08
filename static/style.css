@@ -1,0 +1,12 @@
+
+ body { background: #FFFFFF; color: #801012 }
+
+a:link { color: #FF1188 }
+
+a:visited { color: #FF0000 }
+
+a:active { color: #A05050 }
+
+h1, h4, body { font-family: 'Arial', 'Sans-Serif' }
+
+img { border: 0px solid; border-radius: 25px; }
