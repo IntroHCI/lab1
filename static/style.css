@@ -1,11 +1,11 @@
 
- body { background: #FFFFFF; color: #801012 }
+body { background: #FFFFFF; color: #801012; margin-top: 20px; margin-left: 200px; margin-right: 200px; margin-bottom: 120px; }
 
 a:link { color: #FF1188 }
 
 a:visited { color: #FF0000 }
 
-a:active { color: #A05050 }
+a:active { color: #FF1188 }
 
 h1, h4, body { font-family: 'Arial', 'Sans-Serif' }
 
