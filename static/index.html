@@ -2,24 +2,57 @@
 
 <html>
 <head>
+	<title>MJM Portfolio</title>	
 	<meta charset="utf-8">
-	<title>HCI Project Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Compiled plugins  -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- css -->      
 </head>
 
 <body>
-	<!-- this is a comment in HTML -->
-	<h1>Scott Klemmer</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
+	<div class="container">
 
-	<!-- p means paragraph -->
-	<p>Scott is an Associate Professor of Cognitive Science and Computer Science & Engineering at UC San Diego, where he is a co-founder and Associate Director of the Design Lab. He previously served as Associate Professor of Computer Science at Stanford, where he co-directed the HCI Group, held the Bredt Faculty Scholar chair, and was a founding participant in the d.school. </p>
+		<div class="jumbotron">
+			<h1>Matthew J. Monaghan</h1>
+			<p><a href="education.html">web development</a> &middot; <a href="work.html">wordpress management</a></p>
+		</div>
 
-	<h4>Projects</h4>
-	<ol>
-		<li>Design Thinking</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+	<div class="row" padding="20px">	
+		<div class="project col-md-6 col-md-offset-3 text-center">
+			<img src="images/Lightroom export/profile.jpg" alt="portait image" class="img" style="width: 190px; height: 260px">
+			<ul class="list-unstyled">
+				<strong><li>mjmonagh@eng.ucsd.edu</li>
+				<li>908.635.2353</li></strong>
+
+			</ul>
+		</div>
+	</div>
+
+	
+
+	<div class="row">
+		<h3 class="text-center">Projects & Experience</h3>
+			<div class="project col-md-6 text-center" id="edu">
+				<a href="education.html" class="thumbnail">
+					<img src="images/Lightroom export/ucsd.jpg" style="width: 420px; height: 260px" alt="ucsd image" class="img">
+					<p><b>Education</u></p>
+				</a>
+			</div>
+			<div class="project col-md-6 text-center" id="work">
+				<a href="work.html" class="thumbnail">
+					<img src="images/Lightroom export/moon3.jpg" style="width: 420px; height: 260px"alt="ocean image" class="img">
+					<p><b>Work Experience</b></p>
+				</a>
+			</div>
+	</div>
+
 </body>
 </html>
