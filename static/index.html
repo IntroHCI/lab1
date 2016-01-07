@@ -1,25 +1,117 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
+
+	<!-- linking css and jQuery--->
+	<!---HELLLLLOOOOOOOOOOOOOOOOOOOOOOOOS-->
+
 <head>
-	<meta charset="utf-8">
-	<title>HCI Project Portfolio</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script> 
 </head>
 
+<title>
+	Kathy Vo
+</title>
 <body>
-	<!-- this is a comment in HTML -->
-	<h1>Scott Klemmer</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
 
-	<!-- p means paragraph -->
-	<p>Scott is an Associate Professor of Cognitive Science and Computer Science & Engineering at UC San Diego, where he is a co-founder and Associate Director of the Design Lab. He previously served as Associate Professor of Computer Science at Stanford, where he co-directed the HCI Group, held the Bredt Faculty Scholar chair, and was a founding participant in the d.school. </p>
+<div id = "container"> <!-- holds everything--->
+ <div id = "menu" class = "inline">
+    <div id = "name"><h2>KATHY VO</h2></div>
+    <div id ="prof"><img src = "https://scontent-lax3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/1391612_616378711738090_887306798_n.jpg?oh=ab0cad6bd035a5576ef3a98db9012107&oe=56F451B9"></div>
+   <span>
+    <div id="abt">About</div>
+    <div id="ri">RaidIn </div>
+    <div id = "lo">Veteran Trauma</div>
+    <div id = "eye">Eyewitness</div>
+    <div id = "cont">Contact</div>
+    <div id = "resume"> <a href = "https://drive.google.com/file/d/0B13adC9wzYpzbE0tVVBweDYwVHc/view?usp=sharing" target = "_blank">Resume </a></div>
+  </span>
+</div>
 
-	<h4>Projects</h4>
-	<ol>
-		<li>Design Thinking</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+<!--End of Menu Design-->
+
+<!--Start of CONTENT-RELATED DESIGN-->
+<div id ="content" class = "inline">
+  <div id = "about" class = "active">
+    <p>I am a fourth-year undergraduate studying Psychology at UCSD. As a creative thinker, I bring a unique skill set combining both clinical and user behavioural research. Inspired from my experience in trauma research to education technology, I aspire to incorporate technology into mental healthcare to help people become more self-sufficient with their mental well-being. 
+</p>
+    <div id ="baby"><img src="https://41.media.tumblr.com/c49ecfc99dab14bc5449523bcd44a6e6/tumblr_nyo00qZxws1sh14upo1_540.png"/></div>
+  <p>Aside from these endeavors, I am also a....</p>
+  <p>Dedicated fan of <i>The Ellen Degeneres Show</i>
+  <p>Patient viewer awaiting Ellen Degeneres' invite to her 12 Days of Christmas Giveaway 
+  <p>Trail hiker who battled against countless squirrels 
+  <p>Amateur sketcher with Staedler pencils as weapons 
+  <p>Professional Nap Expert
+
+  
+  </div>
+    
+  <div id = "raidin" class="hide">
+			<div id = "logo"><img src = "logo_raidin.jpg"/></div>
+          <h1>RaidIn</h1>
+      <h4>Purpose</h4>
+
+         <p>Course Project for Usability Information and Architecture (COGS 187A, UCSD)</p>
+		 <p>Role: Interaction Designer and User Researcher</p>
+      <h4>Overview</h4>
+      <p>RaidIn is a new way for gamers to determine when and who they're matched with for raids. Users can find upcoming raids, network with fellow gamers, and form their own squad that would make Taylor Swift jealous. I consider this my first "big" design project, honing my skills in prototyping through tools such as Illustrator, FluidUI, and Invision.</p>
+      
+		<p>For a more in-depth look at our process, check out our Medium blog <a href = "https://medium.com/@wackpantherteam">here</a></p>
+      <h4>Brainstorming</h4>
+      <p>Although we had general ideas of how to shape our app, it was important to gather more understanding of gamers through user interviews. As raids are mostly arranged team plays through the gaming world, my primary goal as a user researcher was to investigate the relationship between a gamer's skill background and their values regarding teamwork. After conducting user interviews, we discovered that most gamers fall in a "Goldilocks" type of field: not too competitive, but still wanted to be respected as a serious player. Gamers considered "extremes" such as busy professionals (i.e. university professor) who must carefully schedule their spare time and high-ranking players who game for a living have very specific needs that also must be addressed for matchmaking purposes. My group came up with three main goals for our app: 
+          <ol>
+              <li>Provide a simple, quick interface for users to find raids based on their specific needs.</li>
+               <li>Allow users to request to join and contact each other </li>
+               <li>Explore a quick overview of user profiles for clan recruitment</li>
+           </ol>
+      
+      <h4>Prototyping</h4>
+         <p> As an interaction designer, I was tasked with rapid prototyping on layouts that would have users on the app for only a few minutes at a time. RaidIn is an app that should not be lingered on for too long, as gamers vary in regards to free time. It was important for our to realize that the gamer's priority is to simply find cool teammates to play raids with, not fuss over scheduling more than necessary. 
+			
+			 <div id="ri_1"></div>
+         <div id="ri_2"></div>
+         <div id="ri_3"></div>
+		 
+		 <p>The most crucial design for our prototype was the raid calendar, which would determine the ease and flow of navigating through potentially hundreds of raids. Our layout changed immensely within the ten weeks, starting from a Google Calendar-inspired layout to a more modern, mobile-friendly layout that could easily filter out raids. One of the major issues we discovered upon user testing was overloading users with information that wasn't displayed in an organized matter. In terms of designing the calendar interface, it was important to consider all the different attributes a gamer would want to see in available raids and user, but also prevent them from getting dizzy and confused by too much text.
+
+
+     <h4>Final Product</h4>
+          <p>The final product is a sleeker, sci-fi inspired interface that aligns aesthetically well with many existing MMORPGs, hence will attract many potential users and gamers. Our hi-fi prototpyes can be found <a href = "https://invis.io/ER54KKU3V">here </a></p>
+  </div> <!--end of RAIDIN-->
+    
+  <div id = "liftoff" class="hide">
+      <h1>The Posttraumatic Cognitions Inventory Psychometric Replication in a Veteran Sample</h1>
+	  <p>Advisors: Dr. Steven Thorp, Ph.D and Leslie Morland, Psy.D</p>
+      <h4>Overview</h4>
+			<a href = "https://drive.google.com/file/d/0B13adC9wzYpzVFh5WjU5ek9MSWs/view?usp=sharing" target = "_blank">
+			   <div id = "ptci"><img src = "ptci_poster.png"/></div>
+			</a>
+		  <p>As a research assistant at the Veteran Medical Research Foundation, I helped investigate the psychometric properties of the Post-traumatic Cognitions Inventory (PTCI) in a veteran population. Negative cognitions are believed to be one of the mechanisms that contribute to the development of post-traumatic stress disorder (PTSD). While the PTCI was developed to assess these cognitions, many replications across trauma population has demonstrated that the original 33-item measurement does not provide the best fit, as researchers regularly took out items accordingly. Our goals were to conduct a confirmatory analysis on the three-factor structure of the PTCI and examine internal consistency, criterion validity and convergent validity for a diverse veteran population. 
+		  <p>On November 2015, this study was published as a poster presentation at the 31st Annual Meeting of the International Society for Traumatic Stress Studies.</p>
+			
+  </div>
+    
+  <div id = "eyewitness" class = "hide">
+      <h1>High Confidence In Cross-Racial Eyewitness Identification</h1>
+      <p>Advisor: John Wixted, Ph.D</p>
+			<div id = "face"><img src ="faces.png"/></div>
+      <h4>Overview</h4>
+      <p>As part of UCSD's Psychology Honors program, I am currently conducting an experimental study exploring the confidence-accuracy relationship during cross-racial eyewitness testimonies. In criminal court cases, high confidence from witness testimony is widely believed to be a good indicator of high accuracy in suspect identification. However, the strength of the confidence-accuracy relationship has yet to be fully examined under the influence of the cross-race effect, a phenomenom where people are less likely to recognize other-race faces than own-race faces. 
+	  <p>Simulated through a face memory task, I am in charge of developing the online experiment through Qualtrics and Python while also running statistical analysis through JMP SAS. The findings from this study are expected to provide implications on the role of confidence during cross-racial suspect identification and an explanation for racial inequality within exoneration cases.
+          
+           
+  </div>
+    
+  <div id = "contact" class = "hide">
+      <h1>Contact Me</h1>
+         <p>Email: <a href="mailto:kathyvo143@gmail.com">kathyvo143@gmail.com</a>
+      <!--start contact form-->
+      
+  </div>
+</div> <!---END OF CONTENT-->
+
+</div> <!--end of container--->    
 </body>
-</html>
+</html>         
