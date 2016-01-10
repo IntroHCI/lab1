@@ -1,0 +1,225 @@
+html {
+    font-family: Roboto;
+    background-image: url("https://40.media.tumblr.com/8416f3e99c7beda08d072b1aab9b031c/tumblr_nxw50pcCJq1sh14upo1_540.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+
+.inline {
+    height: 100vh;
+    display: inline-block;
+}
+
+#menu {
+    background-color: tomato;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    color: white;
+	margin: 0;
+    padding: 0;
+     
+}
+
+#menu h2 {
+    margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: Roboto;
+}
+
+#prof img {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    margin-left: auto; 
+    margin-right: auto;
+	padding-bottom: 20px;
+}
+
+#menu div {
+    text-align: center;
+    font-size: 25px;
+}
+
+#menu span div {
+    height: 7vh;
+    padding-top: 1vh;
+    text-align: center;
+
+}
+
+#menu span div:hover {
+    cursor: pointer; 
+    background-color: red;
+}
+
+#resume a {
+    text-decoration: none; 
+    color: white;
+    
+}
+
+#content {
+    min-width: 700px; 
+    margin-left: 350px;
+    margin-top: 50px;
+    float: center;
+	margin-bottom: 75px;
+
+}
+
+#content p {
+
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+#content h1 {
+    font-size: 40px;
+}
+
+#content h4 {
+    font-size: 22px;
+	margin: 0px;
+}
+
+
+#about {
+    position: fixed;
+    z-index; 4;
+}
+
+#about p {
+	font-size: 25px;
+}
+
+#baby img {
+    height: 300px; 
+    width: 300px;
+    border-radius: 50%;
+    float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+
+}
+
+#raidin {
+    position: relative;
+    z-index: 3;
+	margin-bottom: 75px;
+}
+
+#logo {
+	float: right;
+	margin-right: 100px;
+	margin-left: 50px;
+}
+#logo img {
+	height: 250px;
+	width: 250px;
+	border-radius: 25px;
+}
+
+#raidin p {
+	margin-right: 100px;
+}
+
+#raidin div {
+    height: 300px;
+    width: 200px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#raidin li { 
+	font-size: 20px;
+}
+
+#ri_head {
+    background-color: none;
+    display: inline-block;
+   
+}
+
+ 
+#purpose {
+    display: inline;
+}
+
+#ri_1 {
+    content: url("https://cdn-images-1.medium.com/max/800/1*vWXUU6Yh01CKvbIDyVEP6g.jpeg");
+}
+
+#ri_2 {
+    content: url("https://cdn-images-1.medium.com/max/800/1*EqzL2YpvaiXOPV0L6iRRjg.png");
+}
+
+#ri_3 {
+     content: url("https://cdn-images-1.medium.com/max/600/1*oaOgiuMaM3E1yhaqKMFb3g.png");
+}
+
+#space {
+    height: 3vh;
+    width: 3vw;
+     
+}
+#liftoff {
+    height: 100vh;
+    z-index: 2;
+	font-size: 22px;
+	position: fixed;
+}
+
+liftoff p {
+	margin-right: 125px;
+}
+#ptci {
+	float: right;
+	margin-right: 50px;
+	margin-left: 30px;
+}
+#ptci img{
+	height: 300px; 
+	width: 400px; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 45px;
+
+}
+
+#eyewitness {
+    position: fixed; 
+    z-index: 1; 
+}
+
+#eyewitness div {
+   
+    margin-right: 50px;
+	margin-left:20px;
+	float: right;
+}
+
+#eyewitness div img {
+   
+    height: 400px;
+    width: 250px;
+    margin-left: 1px;
+
+}
+
+#contact {
+    position: fixed; 
+    z-index: 0;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
